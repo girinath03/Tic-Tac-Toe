@@ -1,0 +1,32 @@
+.tb{
+    text-align: center;
+    margin-top: 50px;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(40, 37, 37);
+    font-size:x-large;
+    font-family:cursive;
+}
+.square
+{
+    color: aliceblue;
+}
+.square:hover{
+    width: 101px;
+    background-color: rgb(25, 26, 25);
+}
+.res
+{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(242, 255, 0);
+    font-family: cursive;
+}
+.res-btn
+{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
