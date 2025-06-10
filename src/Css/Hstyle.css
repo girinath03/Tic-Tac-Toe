@@ -1,0 +1,34 @@
+/* Hstyle.css */
+.mainbdy {
+  /* Background image with fallback color */
+  background-image: url(../Assests/bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #000000;
+  
+  /* Full viewport sizing */
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.mainbdy::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.mainbdy > * {
+  position: relative;
+  z-index: 1;
+}
